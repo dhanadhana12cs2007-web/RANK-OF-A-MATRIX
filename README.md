@@ -12,7 +12,9 @@ Step 4: End the program
  
 ## Program:
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
 
 A = np.array([[1, 2, 3],
