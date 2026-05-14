@@ -11,18 +11,10 @@ Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given mat
 Step 4: End the program
  
 ## Program:
-import os
-
-os.environ["OPENBLAS_NUM_THREADS"]="1"
-
-import numpy as np
-
-A = np.array([[1, 2, 3],
-              [3, 6, 9]])
-
-print(np.linalg.matrix_rank(A))
-## Output:
 <img width="765" height="408" alt="image" src="https://github.com/user-attachments/assets/9e999065-c05d-48ef-98dd-3d6e72aa80a7" />
+
+## Output:
+
 <img width="1286" height="323" alt="Screenshot 2026-05-06 104828" src="https://github.com/user-attachments/assets/4ff28e52-753f-4422-86c5-231135f571fc" />
 
 ## Result:
